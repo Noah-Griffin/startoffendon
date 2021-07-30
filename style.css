@@ -100,18 +100,21 @@ a{
   }
 
   #column1 {
+    text-align: center;
     float: left;
     height: fit-content;
     padding: 10px 0;
     width: 96%;
   }
   #column2 {
+    text-align: center;
     float: left;
     height: fit-content;
     padding: 10px 0;
     width: 96%;
   }
   #column3 {
+    text-align: center;
     float: left;
     height: fit-content;
     padding: 10px 0;
@@ -123,6 +126,7 @@ a{
   }
 
   #column4 {
+    text-align: center;
     float: left;
     height: fit-content;
     padding: 10px 0;
