@@ -1,7 +1,7 @@
 body{
   font-family: 'Lato';
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   text-align: justify;
 }
 
@@ -167,7 +167,7 @@ a{
     content: "";
     display: table;
     clear: both;
-    margin-top: 16vh;
+    margin-top: 14vh;
   }
 
   #column1 {
@@ -186,15 +186,18 @@ a{
   #column3 {
     float: left;
     height: 80vh;
-    width: 22.5%;
+    width: 25%;
     padding: 0 10px;
     margin-left: 1vw;
+  }
+  #column3 img{
+    max-width: 100%
   }
 
   #column4 {
     float: left;
     height: 80vh;
-    width: 22.5%;
+    width: 15%;
     padding: 0 10px;
     margin-left: 1vw;
   }
