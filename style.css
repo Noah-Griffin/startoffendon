@@ -1,0 +1,201 @@
+body{
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 18px;
+  text-align: justify;
+}
+
+h1{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+
+#start{
+  position: fixed;
+}
+#start img{
+  float: left;
+}
+
+#off{
+  position: fixed;
+}
+
+#off img{
+  float: right;
+}
+
+#end{
+  position: fixed;
+}
+
+#end img{
+  float: left;
+}
+
+#on{
+  position: fixed;
+}
+
+#on img{
+  float: right;
+}
+
+.corners:hover > #boxes{
+  filter: blur(8px);
+}
+
+.corners:hover > #boxes:hover{
+  filter: blur(0px);
+}
+
+
+@media only screen and (min-width: 0px) {
+  #start{
+    left: 1vh;
+    top: 1vh;
+  }
+  #start img{
+    height: 4vh;
+  }
+
+  #off{
+    right: 1vh;
+    top: 1vh;
+  }
+  #off img{
+    float: right;
+    height: 4vh;
+  }
+
+  #end{
+    left: 1vh;
+    bottom: 1vh;
+  }
+  #end img{
+    height: 4vh;
+  }
+
+  #on{
+    right: 1vw;
+    bottom: 1vw;
+  }
+  #on img{
+    height: 4vh;
+  }
+
+  #boxes {
+    content: "";
+    margin-top: 6vh;
+    margin-left: 1vh;
+  }
+
+  #column1 {
+    float: left;
+    height: fit-content;
+    padding: 10px 0;
+    width: 96%;
+  }
+  #column2 {
+    float: left;
+    height: fit-content;
+    padding: 10px 0;
+    width: 96%;
+  }
+  #column3 {
+    float: left;
+    height: fit-content;
+    padding: 10px 0;
+    width: 96%;
+  }
+
+  #column4 {
+    float: left;
+    height: fit-content;
+    padding: 10px 0;
+    width: 96%;
+    margin-bottom: 8vh;
+  }
+}
+
+
+
+@media only screen and (min-width: 700px) {
+  #start{
+    left: 1.5vw;
+    top: 1.5vw;
+  }
+  #start img{
+    height: 8vh;
+  }
+
+  #off{
+    right: 1.5vw;
+    top: 1.5vw;
+  }
+  #off img{
+    float: right;
+    height: 8vh;
+  }
+
+  #end{
+    left: 2vw;
+    bottom: 1.5vw;
+  }
+  #end img{
+    height: 8vh;
+  }
+
+  #on{
+    right: 1.5vw;
+    bottom: 1.5vw;
+  }
+  #on img{
+    height: 8vh;
+  }
+
+  #boxes {
+    content: "";
+    display: table;
+    clear: both;
+    margin-top: 16vh;
+  }
+
+  #column1 {
+    float: left;
+    height: 80vh;
+    padding: 0 10px;
+    width: 22.5%;
+  }
+  #column2 {
+    float: left;
+    height: 80vh;
+    padding: 0 10px;
+    width: 22.5%;
+    margin-left: 1vw;
+  }
+  #column3 {
+    float: left;
+    height: 80vh;
+    width: 22.5%;
+    padding: 0 10px;
+    margin-left: 1vw;
+  }
+
+  #column4 {
+    float: left;
+    height: 80vh;
+    width: 22.5%;
+    padding: 0 10px;
+    margin-left: 1vw;
+  }
+}
