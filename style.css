@@ -117,6 +117,10 @@ a{
     padding: 10px 0;
     width: 96%;
   }
+  
+  #column3 img{
+    max-width: 100%
+  }
 
   #column4 {
     float: left;
