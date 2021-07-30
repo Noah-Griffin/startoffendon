@@ -126,7 +126,7 @@ a{
     float: left;
     height: fit-content;
     padding: 10px 0;
-    width: 96%;
+    width: 100%;
     margin-bottom: 8vh;
   }
 }
@@ -195,7 +195,7 @@ a{
     margin-left: 1vw;
   }
   #column3 img{
-    max-width: 100%
+    width: 100%;
   }
 
   #column4 {
