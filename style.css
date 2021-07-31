@@ -179,14 +179,14 @@ a{
   }
 
   #column1 {
-    text-align: left;
+    text-align: justify;
     float: left;
     height: 80vh;
     padding: 0 10px;
     width: 22.5%;
   }
   #column2 {
-    text-align: left;
+    text-align: justify;
     float: left;
     height: 80vh;
     padding: 0 10px;
@@ -194,7 +194,7 @@ a{
     margin-left: 1vw;
   }
   #column3 {
-    text-align: left;
+    text-align: justify;
     float: left;
     height: 80vh;
     width: 25%;
@@ -206,7 +206,7 @@ a{
   }
 
   #column4 {
-    text-align: left;
+    text-align: justify;
     float: left;
     height: 80vh;
     width: 15%;
