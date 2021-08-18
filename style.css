@@ -57,9 +57,6 @@ a{
     border-radius: 0px;
     padding: 5px;
     border: 1px solid #e8dfda;
-    font-family: 'Lato';
-    font-weight: 100;
-    font-size: 16px;
   }
 
   input[type=button], input[type=submit], input[type=reset]{
@@ -102,9 +99,6 @@ a{
   }
 
   #boxes {
-    font-family: 'Lato';
-    font-weight: 100;
-    font-size: 16px;
     text-align: justify;
     content: "";
     margin-top: 6vh;
@@ -150,9 +144,6 @@ a{
     border-radius: 0px;
     padding: 5px;
     border: 1px solid #e8dfda;
-    font-family: 'Lato';
-    font-weight: 100;
-    font-size: 16px;
   }
 
   input[type=button], input[type=submit], input[type=reset]{
@@ -195,10 +186,6 @@ a{
   }
 
   #boxes {
-    font-family: 'Lato';
-    font-weight: 100;
-    font-size: 16px;
-    text-align: justify;
     content: "";
     display: table;
     clear: both;
