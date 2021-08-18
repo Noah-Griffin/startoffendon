@@ -114,6 +114,7 @@ input[type=button], input[type=submit], input[type=reset]{
     font-family: 'Lato';
     font-weight: 300;
     font-size: 16px;
+    text-align: justify;
     content: "";
     margin-top: 6vh;
     margin-left: 1vh;
@@ -132,7 +133,6 @@ input[type=button], input[type=submit], input[type=reset]{
     width: 96%;
   }
   #column3 {
-    text-align: center;
     float: left;
     height: fit-content;
     padding: 10px 0;
