@@ -71,6 +71,7 @@ a{
   }
 
   input[type=button], input[type=submit], input[type=reset]{
+    width: fit-content;
     background: #e8dfda;
     text-align: left;
   }
@@ -163,6 +164,7 @@ a{
   }
 
   input[type=button], input[type=submit], input[type=reset]{
+    width: fit-content;
     background: #e8dfda;
     text-align: left;
   }
