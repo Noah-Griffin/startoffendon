@@ -223,7 +223,7 @@ input[type=button], input[type=submit], input[type=reset]{
     text-align: left;
     float: left;
     height: 80vh;
-    width: 22.5%;
+    width: 15%;
     padding: 0 10px;
     margin-left: 1vw;
   }
