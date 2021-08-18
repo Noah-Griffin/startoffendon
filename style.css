@@ -1,7 +1,7 @@
 body{
-  font-family: 'Open Sans';
+  font-family: 'Lato';
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   text-align: justify;
 }
 
@@ -16,6 +16,23 @@ h1{
 a{
   color: black;
   text-decoration: none;
+}
+
+input{
+  width: 100%;
+  border-radius: 0px;
+  padding: 5px;
+  border: 1px solid #e8dfda;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 16px;
+}
+
+input[type=button], input[type=submit], input[type=reset]{
+  width: 106%;
+  background: #e8dfda;
+  border: none;
+  text-align: left;
 }
 
 
@@ -86,8 +103,8 @@ a{
   }
 
   #on{
-    right: 1vh;
-    bottom: 1vh;
+    right: 1vw;
+    bottom: 1vw;
   }
   #on img{
     height: 4vh;
@@ -96,11 +113,10 @@ a{
   #boxes {
     content: "";
     margin-top: 6vh;
-    margin-left: 2vw;
+    margin-left: 1vh;
   }
 
   #column1 {
-    text-align: center;
     float: left;
     height: fit-content;
     padding: 10px 0;
@@ -120,17 +136,15 @@ a{
     padding: 10px 0;
     width: 96%;
   }
-  
   #column3 img{
-    width: 96%;
+    max-width: 100%
   }
 
   #column4 {
-    text-align: center;
     float: left;
     height: fit-content;
     padding: 10px 0;
-    width: 100%;
+    width: 96%;
     margin-bottom: 8vh;
   }
 }
@@ -179,14 +193,14 @@ a{
   }
 
   #column1 {
-    text-align: justify;
+    text-align: left;
     float: left;
     height: 80vh;
     padding: 0 10px;
     width: 22.5%;
   }
   #column2 {
-    text-align: justify;
+    text-align: left;
     float: left;
     height: 80vh;
     padding: 0 10px;
@@ -194,22 +208,22 @@ a{
     margin-left: 1vw;
   }
   #column3 {
-    text-align: justify;
+    text-align: left;
     float: left;
     height: 80vh;
-    width: 22.5%;
+    width: 25%;
     padding: 0 10px;
     margin-left: 1vw;
   }
   #column3 img{
-    width: 100%;
+    max-width: 100%
   }
 
   #column4 {
-    text-align: justify;
+    text-align: left;
     float: left;
     height: 80vh;
-    width: 22.5%;
+    width: 15%;
     padding: 0 10px;
     margin-left: 1vw;
   }
