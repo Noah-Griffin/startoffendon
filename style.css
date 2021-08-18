@@ -58,7 +58,7 @@ a{
     padding: 5px;
     border: 1px solid #e8dfda;
     font-family: 'Lato';
-    font-weight: 300;
+    font-weight: 100;
     font-size: 16px;
   }
 
@@ -103,7 +103,7 @@ a{
 
   #boxes {
     font-family: 'Lato';
-    font-weight: 300;
+    font-weight: 100;
     font-size: 16px;
     text-align: justify;
     content: "";
@@ -151,7 +151,7 @@ a{
     padding: 5px;
     border: 1px solid #e8dfda;
     font-family: 'Lato';
-    font-weight: 300;
+    font-weight: 100;
     font-size: 16px;
   }
 
@@ -196,7 +196,7 @@ a{
 
   #boxes {
     font-family: 'Lato';
-    font-weight: 300;
+    font-weight: 100;
     font-size: 16px;
     text-align: justify;
     content: "";
