@@ -61,7 +61,7 @@ a{
 
 @media only screen and (min-width: 0px) {
   input{
-    width: 96.5%;
+    width: 100%;
     border-radius: 0px;
     padding: 5px;
     border: 1px solid #e8dfda;
@@ -71,12 +71,6 @@ a{
   }
 
   input[type=button], input[type=submit], input[type=reset]{
-    width: 100%;
-    border-radius: 0px;
-    padding: 5px;
-    font-family: 'Lato';
-    font-weight: 300;
-    font-size: 16px;
     background: #e8dfda;
     text-align: left;
   }
@@ -169,12 +163,6 @@ a{
   }
 
   input[type=button], input[type=submit], input[type=reset]{
-    width: 106%;
-    border-radius: 0px;
-    padding: 5px;
-    font-family: 'Lato';
-    font-weight: 300;
-    font-size: 16px;
     background: #e8dfda;
     text-align: left;
   }
