@@ -71,8 +71,6 @@ a{
 }
 
 input[type=button], input[type=submit], input[type=reset]{
-  width: 100%;
-  border-radius: 0px;
   padding: 5px;
   border: 1px solid #e8dfda;
   background: #e8dfda;
@@ -168,8 +166,6 @@ input[type=button], input[type=submit], input[type=reset]{
   }
 
   input[type=button], input[type=submit], input[type=reset]{
-    width: 100%;
-    border-radius: 0px;
     padding: 5px;
     border: 1px solid #e8dfda;
     background: #e8dfda;
