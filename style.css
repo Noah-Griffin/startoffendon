@@ -61,23 +61,26 @@ a{
 
 @media only screen and (min-width: 0px) {
   input{
-  width: 96%;
-  border-radius: 0px;
-  padding: 5px;
-  border: 1px solid #e8dfda;
-  font-family: 'Lato';
-  font-weight: 300;
-  font-size: 16px;
-}
+    width: 96.5%;
+    border-radius: 0px;
+    padding: 5px;
+    border: 1px solid #e8dfda;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 16px;
+  }
 
-input[type=button], input[type=submit], input[type=reset]{
-  padding: 5px;
-  border: 1px solid #e8dfda;
-  background: #e8dfda;
-  border: none;
-  text-align: left;
-}
-  
+  input[type=button], input[type=submit], input[type=reset]{
+    width: 100%;
+    border-radius: 0px;
+    padding: 5px;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 16px;
+    background: #e8dfda;
+    text-align: left;
+  }
+
   #start{
     left: 1vh;
     top: 1vh;
@@ -156,7 +159,7 @@ input[type=button], input[type=submit], input[type=reset]{
 
 @media only screen and (min-width: 700px) {
   input{
-    width: 96%;
+    width: 100%;
     border-radius: 0px;
     padding: 5px;
     border: 1px solid #e8dfda;
@@ -166,13 +169,16 @@ input[type=button], input[type=submit], input[type=reset]{
   }
 
   input[type=button], input[type=submit], input[type=reset]{
+    width: 106%;
+    border-radius: 0px;
     padding: 5px;
-    border: 1px solid #e8dfda;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 16px;
     background: #e8dfda;
-    border: none;
     text-align: left;
   }
-  
+
   #start{
     left: 1.5vw;
     top: 1.5vw;
