@@ -99,8 +99,8 @@ a{
   }
 
   #on{
-    right: 1vw;
-    bottom: 1vw;
+    right: 1vh;
+    bottom: 1vh;
   }
   #on img{
     height: 4vh;
@@ -178,7 +178,7 @@ a{
   }
 
   #end{
-    left: 2vw;
+    left: 1.5vw;
     bottom: 1.5vw;
   }
   #end img{
